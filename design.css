@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #FF7B5B;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: Minimalust Glyph;
+  src:url("Minimalust Glyph.ttf");
+}
+
+@font-face {
+  font-family: big john;
+  src:url("BIG JOHN.otf");
+}
+
+@font-face {
+  font-family: slim joe;
+  src:url("Slim joe.otf");
+
+}
+
+
+h1 {
+  color: #FF7B5B;
+  text-align: center;
+  font-family: Minimalust Glyph;
+  font-size: 100px;
+  background: white;
+
+}
+
+
+p {
+  text-align: center;
+  color: white;
+  font-family: slim joe;
+  font-size: 70px;
+  margin-top: 20px;
+}
+
+
+.nature {
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+.space {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+}
+
+button {
+  background: none;
+  color: white;
+  width: 250px;
+  height: 70px;
+  border-radius: 100px;
+  border: 3px solid white;
+  transition: .5s;
+  overflow: hidden;
+  font-family: big john;
+  font-size: 18px;
+  outline: none;
+
+
+}
+
+
+
+button:before {
+
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 100%
+    top: 0;
+    left: 0;
+    opacity: .5s;
+    filter: blur(30px);
+
+
+}
+
+
+button:after {
+
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  top: 0;
+  left: 30px;
+  opacity: 0;
+  filter: blur(30px);
+
+
+}
+
+
+button:hover {
+  background: white;
+  cursor: pointer;
+  color: black;
+
+
+
+}
+
+.spacewall {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.smokes {
+  position: absolute;
+  top: 79%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

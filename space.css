@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #FF7B5B;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: Minimalust Glyph;
+  src:url("Minimalust Glyph.ttf");
+}
+
+@font-face {
+  font-family: big john;
+  src:url("BIG JOHN.otf");
+}
+
+@font-face {
+  font-family: slim joe;
+  src:url("Slim joe.otf");
+
+}
+
+
+h1 {
+  color: #FF7B5B;
+  text-align: center;
+  font-family: Minimalust Glyph;
+  font-size: 100px;
+  background: white;
+
+}
+
+
+p {
+  text-align: center;
+  color: white;
+  font-family: slim joe;
+  font-size: 70px;
+  margin-top: 20px;
+}
+
+img {
+  margin-top: 50px;
+}
